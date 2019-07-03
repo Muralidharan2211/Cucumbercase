@@ -13,7 +13,7 @@ import cucumber.api.java.en.When;
 public class Addtocart {
 	WebDriver driver;
 	@Given("Alex has registered in to TestMeApp")
-	public void alex_has_registered_in_to_TestMeApp() throws Throwable {
+	public void alex_has_registered_in_to_TestMeApp()  {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\training_c2a.04.29\\Downloads\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("http://10.232.237.143:443/TestMeApp/fetchcat.htm");
@@ -29,7 +29,7 @@ public class Addtocart {
 	}
 
 	@When("Alex search a particular product like headphones")
-	public void alex_search_a_particular_product_like_headphones() throws Throwable {
+	public void alex_search_a_particular_product_like_headphones()  {
 		driver.findElement(By.xpath("//*[@id=\"myInput\"]")).sendKeys("Headphone");
 		driver.findElement(By.xpath("/html/body/div[1]/form/input")).click();
 		//WebElement add=driver.findElement(By.xpath("/html/body/section/div/div/div[2]/div/div/div/div[2]/center/a"));
@@ -38,7 +38,7 @@ public class Addtocart {
 	}
 
 	@When("try to proceed to payment without adding any item in the cart")
-	public void try_to_proceed_to_payment_without_adding_any_item_in_the_cart() throws Throwable {
+	public void try_to_proceed_to_payment_without_adding_any_item_in_the_cart()  {
 		
 		/*WebElement cart1=driver.findElement(By.linkText("Cart"));
 		String cart11=cart1.getText();
@@ -61,7 +61,7 @@ public class Addtocart {
 	}
 
 	@Then("TestMeApp doesnt display the cart icon")
-	public void testmeapp_doesnt_display_the_cart_icon() throws Throwable{
+	public void testmeapp_doesnt_display_the_cart_icon(){
 		System.out.println("there is no cart icon");
 	    
 	}
