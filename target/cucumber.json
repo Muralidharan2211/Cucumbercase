@@ -1,0 +1,107 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "wkfglher",
+        "description": "",
+        "id": "sighvjgvjke;wkfglher;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22530922200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User opens Signin page in testmeapp",
+            "match": {
+              "location": "Scen3.user_opens_Signin_page_in_testmeapp()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 99438200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter uname as \"AlexUser\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"AlexUser\"",
+                  "offset": 20
+                }
+              ],
+              "location": "Scen3.user_enter_uname_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101224900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter pwd as \"Alex@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Alex@123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "Scen3.user_enter_pwd_as(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295453800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on login",
+            "match": {
+              "location": "Scen3.click_on_login()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 80727000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user searches the product",
+            "match": {
+              "location": "Scen3.user_searches_the_product()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 410439500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click find",
+            "match": {
+              "location": "Scen3.click_find()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "sighvjgvjke",
+    "description": "",
+    "id": "sighvjgvjke",
+    "keyword": "Feature",
+    "uri": "src/test/resources/skeleton/sc3.feature",
+    "tags": []
+  }
+]
